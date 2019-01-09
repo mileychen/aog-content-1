@@ -67,6 +67,7 @@ wacn.date: 12/25/2018
     </ServiceConfiguration>
     ```
 
+
 3. 上传该 .cscfg 文件到云服务
 
     详细介绍请参考：[Manage an ILPIP for a Cloud Services role instance](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-instance-level-public-ip#manage-an-ilpip-for-a-cloud-services-role-instance)
