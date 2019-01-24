@@ -13,7 +13,7 @@ wacn.date: 01/10/2019
 
 # 如何避免在发布时出现文件被占用的问题
 
-重新发布应用服务或者 Azure Function 时，有时会遇见发布失败的消息，具体的错误信息为： 文件被占用 (ERROR_FILE_IN_USE) 或者是操作 DLL 文件被拒绝 (Access to the path 'XXXXX.dll' is denied)，在排除是发布账号的权限不足的情况下，这些情况的发生是目标文件正在被使用而无法被替换致使发布失败。
+重新发布应用服务或者 Azure Function 时，有时会遇见发布失败的消息，具体的错误信息为： 文件被占用 (ERROR_FILE_IN_USE) 或者是操作 DLL 文件被拒绝 (Access to the path 'XXXXX.dll' is denied)，在排除是发布账号的权限不足的情况下，这些情况的发生是由于目标文件正在被使用而无法被替换致使发布失败。
 
 根据不同的发布场景，我们可以通过以下的方式来解决该问题：
 
