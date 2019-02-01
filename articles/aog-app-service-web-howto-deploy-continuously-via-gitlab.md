@@ -15,6 +15,8 @@ wacn.date: 01/25/2019
 
 ## 解决方法
 
+Azure Web 应用服务支持从不同的开发环境中进行应用的持续部署，本文主要介绍如何通过GitLab进行手动配置连续部署，具体方法如下：
+
 1. 首先在您的网站的部署中心选择 **External**，如下图：
 
     ![01](media/aog-app-service-web-howto-deploy-continuously-via-gitlab/01.png "01")
