@@ -13,7 +13,7 @@ wacn.date: 01/28/2019
 
 # Web 应用如何使 HTTP/2 可用
 
-Azure Web 应用支持部署的应用使用HTTP/2的协议，默认情况下HTTP/2是不可用的，如果用户想要应用支持HTTP/2协议，需要做手动修改，世纪互联运营的 Azure Web 应用目前还不能直接在门户进行 *http version*的修改，不过可以通过 Azure CLI 命令进行 *enable http/2*。
+Azure Web 应用支持部署的应用使用 HTTP/2 的协议，默认情况下 HTTP/2 是不可用的，如果用户想要应用支持 HTTP/2 协议，需要做手动修改，世纪互联运营的 Azure Web 应用目前还不能直接在门户进行 *http version* 的修改，不过可以通过 Azure CLI 命令进行 *enable http/2*。
 
 1. 首先参考官方链接安装Azure CLI： [安装 Azure CLI](https://docs.azure.cn/zh-cn/cli/install-azure-cli?view=azure-cli-latest)。
 
